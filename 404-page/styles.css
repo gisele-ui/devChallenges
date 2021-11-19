@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+header h1 {
+  font-size: 0.9em;
+  margin: 1.5em 6em;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4.5em;
+}
+
+.left-side img {
+  /* height: 55vh;
+  width: 30vw;
+  margin-top: 2em; */
+  width: 30vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.right-side {
+  margin-left: 20em;
+}
+.right-side button {
+  line-height: 20.73px;
+  font-size: 10px;
+  margin-top: 3em;
+  padding: 1.2em 4em;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+.right-side button:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+  cursor: pointer;
+}
+.right-side h1 {
+  font-size: 54px;
+}
+.right-side p {
+  font-size: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 2;
+  left: 40%;
+  color: #bdbdbd;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .right-side {
+    margin-left: 0em;
+  }
+  .left-side img {
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+  }
+  header {
+    text-align: center;
+  }
+  footer {
+    position: none;
+    text-align: center;
+  }
+}
