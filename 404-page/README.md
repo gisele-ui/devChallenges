@@ -30,39 +30,25 @@ Feel free to explore each challenge folder to examine the code, review my approa
 
 The repository follows a consistent folder structure for organizing challenges:
 
-├── 404-PAGE
-
-│ ├── src
-
-│ │ └── ...
-
-│ ├── README.md
-
+├── 404-PAGE  
+│ ├── src  
+│ │ └── ...  
+│ ├── README.md  
 │ └── ...
 
 
-├── challenge-2
+├── challenge-2<br>
+│ ├── src<br>
+│ │ └── ...<br>
+│ ├── README.md<br>
+│ └── ...<br>
 
-│ ├── src
-
-│ │ └── ...
-
-│ ├── README.md
-
-│ └── ...
-
-
-├── challenge-3
-
-│ ├── src
-
-│ │ └── ...
-
-│ ├── README.md
-
-│ └── ...
-
-└── ...
+├── challenge-3<br>
+│ ├── src<br>
+│ │ └── ...<br>
+│ ├── README.md<br>
+│ └── ...<br>
+└── ...<br>
 
 
 Each challenge is contained within its respective folder, consisting of source code files (if applicable) and a `README.md` file. The `README.md` file for each challenge provides detailed information about the challenge itself, my solution, and any other relevant details.
