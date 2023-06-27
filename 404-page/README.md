@@ -30,23 +30,38 @@ Feel free to explore each challenge folder to examine the code, review my approa
 
 The repository follows a consistent folder structure for organizing challenges:
 
-├── challenge-1
+├── 404-PAGE
+
 │ ├── src
+
 │ │ └── ...
+
 │ ├── README.md
+
 │ └── ...
+
 
 ├── challenge-2
+
 │ ├── src
+
 │ │ └── ...
+
 │ ├── README.md
+
 │ └── ...
 
+
 ├── challenge-3
+
 │ ├── src
+
 │ │ └── ...
+
 │ ├── README.md
+
 │ └── ...
+
 └── ...
 
 
