@@ -73,8 +73,7 @@ footer {
   header {
     text-align: center;
   }
-  footer {
-    position: none;
-    text-align: center;
+  footer p{
+   display: none;
   }
 }
